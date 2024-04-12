@@ -1,0 +1,3 @@
+[console_scripts]
+init = slm_sim.__init__:main
+

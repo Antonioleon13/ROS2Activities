@@ -1,0 +1,28 @@
+[0.366s] Invoking command in '/root/workspace/challenge1_ws/src/slm_sim': PYTHONPATH=/root/workspace/challenge1_ws/build/slm_sim/prefix_override:/root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/slm_sim build --build-base /root/workspace/challenge1_ws/build/slm_sim/build install --record /root/workspace/challenge1_ws/build/slm_sim/install.log --single-version-externally-managed install_data
+[0.508s] running egg_info
+[0.508s] writing ../../build/slm_sim/slm_sim.egg-info/PKG-INFO
+[0.508s] writing dependency_links to ../../build/slm_sim/slm_sim.egg-info/dependency_links.txt
+[0.508s] writing entry points to ../../build/slm_sim/slm_sim.egg-info/entry_points.txt
+[0.508s] writing requirements to ../../build/slm_sim/slm_sim.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/slm_sim/slm_sim.egg-info/top_level.txt
+[0.510s] reading manifest file '../../build/slm_sim/slm_sim.egg-info/SOURCES.txt'
+[0.510s] adding license file 'LICENSE'
+[0.510s] writing manifest file '../../build/slm_sim/slm_sim.egg-info/SOURCES.txt'
+[0.510s] running build
+[0.511s] running build_py
+[0.511s] copying slm_sim/__init__.py -> /root/workspace/challenge1_ws/build/slm_sim/build/lib/slm_sim
+[0.511s] copying slm_sim/config.py -> /root/workspace/challenge1_ws/build/slm_sim/build/lib/slm_sim
+[0.511s] running install
+[0.511s] running install_lib
+[0.511s] copying /root/workspace/challenge1_ws/build/slm_sim/build/lib/slm_sim/__init__.py -> /root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim
+[0.511s] copying /root/workspace/challenge1_ws/build/slm_sim/build/lib/slm_sim/config.py -> /root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim
+[0.512s] byte-compiling /root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim/__init__.py to __init__.cpython-310.pyc
+[0.512s] byte-compiling /root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim/config.py to config.cpython-310.pyc
+[0.512s] running install_data
+[0.512s] running install_egg_info
+[0.513s] removing '/root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[0.514s] Copying ../../build/slm_sim/slm_sim.egg-info to /root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm_sim-0.0.0-py3.10.egg-info
+[0.514s] running install_scripts
+[0.528s] Installing init script to /root/workspace/challenge1_ws/install/slm_sim/lib/slm_sim
+[0.528s] writing list of installed files to '/root/workspace/challenge1_ws/build/slm_sim/install.log'
+[0.545s] Invoked command in '/root/workspace/challenge1_ws/src/slm_sim' returned '0': PYTHONPATH=/root/workspace/challenge1_ws/build/slm_sim/prefix_override:/root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/slm_sim build --build-base /root/workspace/challenge1_ws/build/slm_sim/build install --record /root/workspace/challenge1_ws/build/slm_sim/install.log --single-version-externally-managed install_data

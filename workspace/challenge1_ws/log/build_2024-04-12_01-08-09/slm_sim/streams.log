@@ -1,0 +1,29 @@
+[0.343s] Invoking command in '/root/workspace/challenge1_ws/build/slm_sim': PYTHONPATH=/root/workspace/challenge1_ws/build/slm_sim/prefix_override:/root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/workspace/challenge1_ws/build/slm_sim/build --no-deps symlink_data
+[0.502s] running develop
+[0.570s] running egg_info
+[0.570s] creating slm_sim.egg-info
+[0.570s] writing slm_sim.egg-info/PKG-INFO
+[0.570s] writing dependency_links to slm_sim.egg-info/dependency_links.txt
+[0.570s] writing entry points to slm_sim.egg-info/entry_points.txt
+[0.570s] writing requirements to slm_sim.egg-info/requires.txt
+[0.570s] writing top-level names to slm_sim.egg-info/top_level.txt
+[0.570s] writing manifest file 'slm_sim.egg-info/SOURCES.txt'
+[0.571s] reading manifest file 'slm_sim.egg-info/SOURCES.txt'
+[0.572s] writing manifest file 'slm_sim.egg-info/SOURCES.txt'
+[0.573s] running build_ext
+[0.573s] Creating /root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages/slm-sim.egg-link (link to .)
+[0.573s] 
+[0.573s] Installed /root/workspace/challenge1_ws/build/slm_sim
+[0.573s] running symlink_data
+[0.573s] creating /root/workspace/challenge1_ws/install/slm_sim/share/ament_index
+[0.573s] creating /root/workspace/challenge1_ws/install/slm_sim/share/ament_index/resource_index
+[0.573s] creating /root/workspace/challenge1_ws/install/slm_sim/share/ament_index/resource_index/packages
+[0.573s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/resource/slm_sim -> /root/workspace/challenge1_ws/install/slm_sim/share/ament_index/resource_index/packages
+[0.573s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/package.xml -> /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim
+[0.573s] creating /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim/launch
+[0.574s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/launch/slm_sim.launch.py -> /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim/launch
+[0.574s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/urdf/pendulum.urdf.xml -> /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim
+[0.574s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/urdf/pendulum.rviz -> /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim
+[0.574s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/meshes/Base_2.stl -> /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim
+[0.574s] symbolically linking /root/workspace/challenge1_ws/build/slm_sim/meshes/Arm_2.stl -> /root/workspace/challenge1_ws/install/slm_sim/share/slm_sim
+[0.589s] Invoked command in '/root/workspace/challenge1_ws/build/slm_sim' returned '0': PYTHONPATH=/root/workspace/challenge1_ws/build/slm_sim/prefix_override:/root/workspace/challenge1_ws/install/slm_sim/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /root/workspace/challenge1_ws/build/slm_sim/build --no-deps symlink_data
