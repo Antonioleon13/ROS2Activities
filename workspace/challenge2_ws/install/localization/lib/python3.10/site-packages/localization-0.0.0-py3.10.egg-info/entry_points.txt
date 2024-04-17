@@ -1,0 +1,4 @@
+[console_scripts]
+kinematic_model = localization.kinematic_model:main
+localization = localization.localization:main
+

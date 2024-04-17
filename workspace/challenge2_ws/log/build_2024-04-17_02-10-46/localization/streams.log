@@ -1,0 +1,24 @@
+[0.367s] Invoking command in '/root/ROS2Activities/workspace/challenge2_ws/src/localization': PYTHONPATH=/root/ROS2Activities/workspace/challenge2_ws/build/localization/prefix_override:/root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /root/ROS2Activities/workspace/challenge2_ws/build/localization/build install --record /root/ROS2Activities/workspace/challenge2_ws/build/localization/install.log --single-version-externally-managed install_data
+[0.509s] running egg_info
+[0.509s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[0.509s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[0.509s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[0.509s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[0.509s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[0.510s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.511s] adding license file 'LICENSE'
+[0.511s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.511s] running build
+[0.511s] running build_py
+[0.511s] running install
+[0.511s] running install_lib
+[0.512s] running install_data
+[0.512s] copying urdf/puzzlebot_jetson_ed_urdf.urdf -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization
+[0.513s] running install_egg_info
+[0.514s] removing '/root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info' (and everything under it)
+[0.514s] Copying ../../build/localization/localization.egg-info to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[0.514s] running install_scripts
+[0.527s] Installing kinematic_model script to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/localization
+[0.527s] Installing localization script to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/localization
+[0.527s] writing list of installed files to '/root/ROS2Activities/workspace/challenge2_ws/build/localization/install.log'
+[0.543s] Invoked command in '/root/ROS2Activities/workspace/challenge2_ws/src/localization' returned '0': PYTHONPATH=/root/ROS2Activities/workspace/challenge2_ws/build/localization/prefix_override:/root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /root/ROS2Activities/workspace/challenge2_ws/build/localization/build install --record /root/ROS2Activities/workspace/challenge2_ws/build/localization/install.log --single-version-externally-managed install_data
