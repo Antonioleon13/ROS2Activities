@@ -6,6 +6,7 @@ from sensor_msgs.msg import JointState
 from rclpy.node import Node 
 from geometry_msgs.msg import PoseStamped
 from geometry_msgs.msg import Twist
+import time
 
 
 w = 0.0
@@ -81,7 +82,7 @@ def main():
             pub_wl.publish(wl_msg)
             pub_wr.publish(wr_msg)
 
-            
+            time.sleep(1/100)
             rclpy.spin_once(node)
     except KeyboardInterrupt:
         pass

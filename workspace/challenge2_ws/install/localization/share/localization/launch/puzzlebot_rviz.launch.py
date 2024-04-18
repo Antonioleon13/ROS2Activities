@@ -28,6 +28,16 @@ def generate_launch_description():
             output='screen',
             parameters=[{'use_sim_time': use_sim_time, 'robot_description': robot_desc}],
             arguments=[urdf]),
+        Node(
+            package='localization',
+            executable='localization',
+            name='localization',
+        ),
+        Node(
+            package='localization',
+            executable='kinematic_model',
+            name='kinematic_model',
+        ),
+        
     ])
-    return ld
 
