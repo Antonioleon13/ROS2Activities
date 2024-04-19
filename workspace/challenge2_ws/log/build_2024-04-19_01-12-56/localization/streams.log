@@ -1,0 +1,54 @@
+[0.348s] Invoking command in '/root/ROS2Activities/workspace/challenge2_ws/src/localization': PYTHONPATH=/root/ROS2Activities/workspace/challenge2_ws/build/localization/prefix_override:/root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /root/ROS2Activities/workspace/challenge2_ws/build/localization/build install --record /root/ROS2Activities/workspace/challenge2_ws/build/localization/install.log --single-version-externally-managed install_data
+[0.483s] running egg_info
+[0.484s] creating ../../build/localization/localization.egg-info
+[0.484s] writing ../../build/localization/localization.egg-info/PKG-INFO
+[0.484s] writing dependency_links to ../../build/localization/localization.egg-info/dependency_links.txt
+[0.484s] writing entry points to ../../build/localization/localization.egg-info/entry_points.txt
+[0.484s] writing requirements to ../../build/localization/localization.egg-info/requires.txt
+[0.484s] writing top-level names to ../../build/localization/localization.egg-info/top_level.txt
+[0.484s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.485s] reading manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.485s] adding license file 'LICENSE'
+[0.486s] writing manifest file '../../build/localization/localization.egg-info/SOURCES.txt'
+[0.486s] running build
+[0.486s] running build_py
+[0.486s] creating /root/ROS2Activities/workspace/challenge2_ws/build/localization/build
+[0.486s] creating /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib
+[0.486s] creating /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization
+[0.486s] copying localization/localization.py -> /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization
+[0.486s] copying localization/__init__.py -> /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization
+[0.486s] copying localization/transform.py -> /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization
+[0.486s] copying localization/kinematic_model.py -> /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization
+[0.486s] running install
+[0.486s] running install_lib
+[0.487s] creating /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization
+[0.487s] copying /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization/localization.py -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization
+[0.487s] copying /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization/__init__.py -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization
+[0.487s] copying /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization/transform.py -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization
+[0.487s] copying /root/ROS2Activities/workspace/challenge2_ws/build/localization/build/lib/localization/kinematic_model.py -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization
+[0.487s] byte-compiling /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization/localization.py to localization.cpython-310.pyc
+[0.488s] byte-compiling /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization/__init__.py to __init__.cpython-310.pyc
+[0.488s] byte-compiling /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization/transform.py to transform.cpython-310.pyc
+[0.488s] byte-compiling /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization/kinematic_model.py to kinematic_model.cpython-310.pyc
+[0.489s] running install_data
+[0.489s] creating /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/ament_index
+[0.489s] creating /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/ament_index/resource_index
+[0.489s] creating /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/ament_index/resource_index/packages
+[0.489s] copying resource/localization -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/ament_index/resource_index/packages
+[0.489s] copying package.xml -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization
+[0.489s] creating /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/launch
+[0.489s] copying launch/puzzlebot_rviz.launch.py -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/launch
+[0.489s] copying urdf/puzzlebot_jetson_ed_urdf.urdf -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization
+[0.490s] creating /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/meshes
+[0.490s] copying meshes/camera.stl -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/meshes
+[0.491s] copying meshes/MCR2_1000_13_Chassis.stl -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/meshes
+[0.500s] copying meshes/PuzzleBot.stl -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/meshes
+[0.508s] copying meshes/MCR2_1000_1_1_Wheel_Coupler_2.stl -> /root/ROS2Activities/workspace/challenge2_ws/install/localization/share/localization/meshes
+[0.509s] running install_egg_info
+[0.511s] Copying ../../build/localization/localization.egg-info to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages/localization-0.0.0-py3.10.egg-info
+[0.511s] running install_scripts
+[0.524s] Installing kinematic_model script to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/localization
+[0.524s] Installing localization script to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/localization
+[0.524s] Installing transform script to /root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/localization
+[0.524s] writing list of installed files to '/root/ROS2Activities/workspace/challenge2_ws/build/localization/install.log'
+[0.538s] Invoked command in '/root/ROS2Activities/workspace/challenge2_ws/src/localization' returned '0': PYTHONPATH=/root/ROS2Activities/workspace/challenge2_ws/build/localization/prefix_override:/root/ROS2Activities/workspace/challenge2_ws/install/localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/localization build --build-base /root/ROS2Activities/workspace/challenge2_ws/build/localization/build install --record /root/ROS2Activities/workspace/challenge2_ws/build/localization/install.log --single-version-externally-managed install_data

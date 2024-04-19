@@ -26,7 +26,10 @@ setup(
     entry_points={
         'console_scripts': [
             'kinematic_model = localization.kinematic_model:main',
-            'localization = localization.localization:main'
+            'localization = localization.localization:main',
+            'transform = localization.transform:main',
+            'controller = localization.controller:main',
+            # 'joint_state_node = localization.joint_states:main'
         ],
     },
 )

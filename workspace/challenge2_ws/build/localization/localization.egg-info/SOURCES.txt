@@ -11,8 +11,11 @@ setup.py
 ../../build/localization/localization.egg-info/zip-safe
 launch/puzzlebot_rviz.launch.py
 localization/__init__.py
+localization/controller.py
+localization/joint_states.py
 localization/kinematic_model.py
 localization/localization.py
+localization/transform.py
 meshes/MCR2_1000_13_Chassis.stl
 meshes/MCR2_1000_1_1_Wheel_Coupler_2.stl
 meshes/PuzzleBot.stl

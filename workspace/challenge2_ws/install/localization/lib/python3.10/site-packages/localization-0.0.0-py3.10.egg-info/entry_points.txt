@@ -1,4 +1,6 @@
 [console_scripts]
+controller = localization.controller:main
 kinematic_model = localization.kinematic_model:main
 localization = localization.localization:main
+transform = localization.transform:main
 

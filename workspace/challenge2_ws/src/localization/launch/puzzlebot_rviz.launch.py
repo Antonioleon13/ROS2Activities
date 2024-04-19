@@ -38,6 +38,21 @@ def generate_launch_description():
             executable='kinematic_model',
             name='kinematic_model',
         ),
+        Node(
+            package='localization',
+            executable='transform',
+            name='transform',
+        ),
+        Node(
+            package='localization',
+            executable='controller',
+            name='controller',
+        ),
+        # Node(
+        #     package='localization',
+        #     executable='joint_state_node',
+        #     name='joint_state_node',
+        # ),
         
     ])
 

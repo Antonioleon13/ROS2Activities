@@ -8,88 +8,83 @@ from geometry_msgs.msg import PoseStamped
 from geometry_msgs.msg import Twist
 import time
 
+class KinematicModel(Node):
 
-w = 0.0
-v = 0.0
+    def __init__(self):
+        super().__init__('kinematic_model')
 
-def cb_cmd_vel(msg):
-    global v, w
-    v = msg.linear.x
-    w = msg.angular.z
+        self.l = 0.19
+        self.r = 0.05
+        self.w = 0.0
+        self.v = 0.0
+        self.x = 0.0
+        self.y = 0.0
+        self.theta = 0.0
+        self.vel_x = 0.0
+        self.vel_y = 0.0
+        self.vel_ang = 0.0
+        self.wl = 0.0
+        self.wr = 0.0
+        self.wr_msg = Float32()
+        self.wl_msg = Float32()
+        self.pose_msg = PoseStamped()
 
-def diferential_drive_model(_v, _w, theta):
-    vel_x = _v*np.cos(theta)
-    vel_y = _v*np.sin(theta)
-    vel_ang = _w
+        print("The kinematic model is Running")
 
-    return vel_x, vel_y, vel_ang    
+        self.cmd_vel_sub = self.create_subscription(Twist, '/cmd_vel', self.cb_cmd_vel, 10)
+        self.pub_pose = self.create_publisher(PoseStamped, '/pose',10)
+        self.pub_wl = self.create_publisher(Float32, '/wl', 10)
+        self.pub_wr = self.create_publisher(Float32, '/wr', 10)
 
-def solver(vel_x, vel_y, vel_ang, x, y, theta):
-    dt = 1/100
-    x += vel_x*dt
-    y += vel_y*dt
-    theta += vel_ang*dt
+        self.start_time = self.get_clock().now()
+        timer_period = 1/10  # seconds
+        self.timer = self.create_timer(timer_period, self.update_pose)
 
-    return x, y, theta
+    def calculate_dt(self):
+        self.current_time = self.start_time.to_msg()
+        self.duration = self.get_clock().now() - self.start_time
+        self.dt = self.duration.nanoseconds * 1e-9
 
-def transform(_v, _w):
-    l = 0.19
-    r = 0.05
-    wr = (2*_v + _w*l)/(2*r)
-    wl = (2*_v - _w*l)/(2*r)
+    def update_pose(self):
 
-    return wr, wl
+        self.calculate_dt()
+        self.diferential_drive_model()
+        self.solver()
+        self.transform()
+        self.wr_msg.data = self.wr
+        self.wl_msg.data = self.wl
+        self.pose_msg.pose.position.x = self.x
+        self.pose_msg.pose.position.y = self.y
+        self.pose_msg.pose.position.z = self.theta
 
+        self.pub_pose.publish(self.pose_msg)
+        self.pub_wl.publish(self.wl_msg)
+        self.pub_wr.publish(self.wr_msg)
+        self.start_time = self.get_clock().now()
+
+    def cb_cmd_vel(self, msg):
+        self.v = msg.linear.x
+        self.w = msg.angular.z
+
+    def diferential_drive_model(self):
+        self.vel_x = self.v*np.cos(self.theta)
+        self.vel_y = self.v*np.sin(self.theta)
+        self.vel_ang = self.w    
+
+    def solver(self):
+        self.x += self.vel_x*self.dt
+        self.y += self.vel_y*self.dt
+        self.theta += self.vel_ang*self.dt
+
+    def transform(self):
+        self.wr = (2*self.v + self.w*self.l)/(2*self.r)
+        self.wl = (2*self.v - self.w*self.l)/(2*self.r)
 
 def main():
     rclpy.init()
-    node = rclpy.create_node("puzzlebot_kinematic_model")
-    rate = node.create_rate(100)
+    kinematic_model = KinematicModel()
+    rclpy.spin(kinematic_model)
+    kinematic_model.destroy_node()
+    rclpy.shutdown()
 
-    x = 0.0
-    y = 0.0
-    theta = 0.0
-   
-
-    # Publisher and subscribers
-    pub_pose = node.create_publisher(PoseStamped, '/pose',10)
-    pub_wl = node.create_publisher(Float32, '/wl', 10)
-    pub_wr = node.create_publisher(Float32, '/wr', 10)
-    sub_cmd_vel = node.create_subscription(Twist, '/cmd_vel', cb_cmd_vel, 10)
-
-
-    print("The kinematic model is Running")
-
-    pose_msg = PoseStamped()
-    wl_msg = Float32()
-    wr_msg = Float32()
-
-    
-    try:
-        while rclpy.ok():
-            vel_x, vel_y, vel_ang = diferential_drive_model(v, w, theta)
-            x, y, theta = solver(vel_x, vel_y, vel_ang, x, y, theta)
-            wr, wl = transform(v, w)
-            pose_msg.pose.position.x = x
-            pose_msg.pose.position.y = y
-            pose_msg.pose.position.z = theta
-
-            
-            wr_msg.data = wr
-            wl_msg.data = wl
-
-            pub_pose.publish(pose_msg)
-            pub_wl.publish(wl_msg)
-            pub_wr.publish(wr_msg)
-
-            time.sleep(1/100)
-            rclpy.spin_once(node)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
-
-if __name__ == '__main__':
-    main()
     

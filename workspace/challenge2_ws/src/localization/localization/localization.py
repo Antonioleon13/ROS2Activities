@@ -2,99 +2,84 @@
 import rclpy
 import numpy as np
 from std_msgs.msg import Float32
-from sensor_msgs.msg import JointState
 from rclpy.node import Node 
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist
-import time
+import time 
 
+class LocalizationNode(Node):
+    def __init__(self):
+        super().__init__('localization')
 
-w = 0.0
-v = 0.0
-wl = 0.0
-wr = 0.0
+        self.l = 0.19
+        self.r = 0.05
+        self.x = 0
+        self.y = 0
+        self.theta = 0
+        self.vel_x = 0
+        self.vel_y = 0
+        self.vel_theta = 0
+        self.v = 0
+        self.w = 0
+        self.wl = 0
+        self.wr = 0
+        self.odom_msg = Odometry()
 
+        print("The localization node is Running")
+        self.pub_odom = self.create_publisher(Odometry, '/odom',10)
+        self.sub_wl = self.create_subscription(Float32, '/wl', self.wl_cb, 10)
+        self.sub_wr = self.create_subscription(Float32, '/wr', self.wr_cb, 10)
+        self.start_time = self.get_clock().now()
+        timer_period = 1/10
+        self.timer = self.create_timer(timer_period, self.update_odom)
 
+    def calculate_dt(self):
+        self.current_time = self.start_time.to_msg()
+        self.duration = self.get_clock().now() - self.start_time
+        self.dt = self.duration.nanoseconds * 1e-9
 
-def wl_cb(msg):
-    global wl
-    wl = msg.data
+    def update_odom(self):
+       
+        self.calculate_dt()
+        self.transform()
+        self.differential_drive_model()
+        self.solver()
 
-def wr_cb(msg):
-    global wr
-    wr = msg.data
+        self.odom_msg.header.stamp = self.get_clock().now().to_msg()
+        self.odom_msg.header.frame_id = 'odom'
+        self.odom_msg.pose.pose.position.x = self.x
+        self.odom_msg.pose.pose.position.y = self.y
+        self.odom_msg.pose.pose.orientation.w = self.theta
+        self.odom_msg.twist.twist.linear.x = self.v
+        self.odom_msg.twist.twist.angular.z = self.vel_ang
 
-def differential_drive_model(v, w, theta):
-    vel_x = v*np.cos(theta)
-    vel_y = v*np.sin(theta)
-    vel_ang = w
+        self.pub_odom.publish(self.odom_msg)
+        self.start_time = self.get_clock().now()
 
-    return vel_x, vel_y, vel_ang    
+    def differential_drive_model(self):
+        self.vel_x = self.v*np.cos(self.theta)
+        self.vel_y = self.v*np.sin(self.theta)
+        self.vel_ang = self.w  
+ 
+    def solver(self):
+        self.x += self.vel_x*self.dt
+        self.y += self.vel_y*self.dt
+        self.theta += self.vel_ang*self.dt
 
-def solver(vel_x, vel_y, vel_ang, x, y, theta):
-    dt = 1/100
-    x += vel_x*dt
-    y += vel_y*dt
-    theta += vel_ang*dt
+    def transform(self):
+        self.v = self.r * (self.wr + self.wl) / 2
+        self.w = self.r * (self.wr - self.wl) / self.l
 
-    return x, y, theta
+    def wl_cb(self,msg):
+        self.wl = msg.data
 
-def transform(_wl, _wr):
-    l = 0.19
-    r = 0.05
-    v = r * (_wr + _wl) / 2
-    w = r * (_wr - _wl) / l
-
-    return v, w
+    def wr_cb(self, msg):
+        self.wr = msg.data
 
 
 def main():
     rclpy.init()
-    node = rclpy.create_node("puzzlebot_kinematic_model")
-    rate = node.create_rate(100)
-
-    x = 0.0
-    y = 0.0
-    theta = 0.0
-   
-
-    # Publisher and subscribers
-    pub_odom = node.create_publisher(Odometry, '/odom',10)
-    sub_wl = node.create_subscription(Float32, '/wl', wl_cb, 10)
-    sub_wr = node.create_subscription(Float32, '/wr', wr_cb, 10)
-
-
-    print("The localization node is Running")
-
-    odom_msg = Odometry()
-
-    try:
-        while rclpy.ok():
-            v, w = transform(wl, wr)
-            vel_x, vel_y, vel_ang = differential_drive_model(v, w, theta)
-            x, y, theta = solver(vel_x, vel_y, vel_ang, x, y, theta)
-
-            odom_msg.header.stamp = node.get_clock().now().to_msg()
-            odom_msg.header.frame_id = 'odom'
-
-            odom_msg.pose.pose.position.x = x
-            odom_msg.pose.pose.position.y = y
-            odom_msg.pose.pose.orientation.w = theta
-
-            odom_msg.twist.twist.linear.x = v
-            odom_msg.twist.twist.angular.z = vel_ang
-
-            pub_odom.publish(odom_msg)
-
-            time.sleep(1/100)
-            
-            rclpy.spin_once(node)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        node.destroy_node()
-        rclpy.shutdown()
-
-if __name__ == '__main__':
-    main()
-    
+    localization_node = LocalizationNode()
+    rclpy.spin(localization_node)
+    localization_node.destroy_node()
+    rclpy.shutdown()
