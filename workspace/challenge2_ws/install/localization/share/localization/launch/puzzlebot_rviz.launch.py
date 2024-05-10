@@ -43,11 +43,11 @@ def generate_launch_description():
             executable='transform',
             name='transform',
         ),
-        Node(
-            package='localization',
-            executable='controller',
-            name='controller',
-        ),
+        # Node(
+        #     package='localization',
+        #     executable='controller',
+        #     name='controller',
+        # ),
         # Node(
         #     package='localization',
         #     executable='joint_state_node',

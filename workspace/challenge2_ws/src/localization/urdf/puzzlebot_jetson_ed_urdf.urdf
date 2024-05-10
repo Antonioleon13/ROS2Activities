@@ -32,10 +32,11 @@
         </visual>
     </link>
 
-     <joint name="right_wheel" type="fixed">
+     <joint name="right_wheel" type="continuous">
         <parent link="chassis"/>
         <child link="wr_link"/>
-        <origin xyz="0.0 0.0 0.05"/>
+        <origin xyz="0.05 0.095 -0.05"/>
+        <axis xyz= "0 0 1"/>
     </joint>
 
     <link name="wr_link">
@@ -48,10 +49,12 @@
 
     </link>
 
-     <joint name="left_wheel" type="fixed">
+     <joint name="left_wheel" type="continuous">
         <parent link="chassis"/>
         <child link="wl_link"/>
-        <origin xyz="0.0 0.0 0.05"/>
+        <origin xyz="0.05 -0.095 -0.05"/>
+        <axis xyz= "0 0 1"/>
+
     </joint>
 
     <link name="wl_link">
