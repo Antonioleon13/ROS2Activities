@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info
+writing ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/PKG-INFO
+writing dependency_links to ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/dependency_links.txt
+writing entry points to ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/entry_points.txt
+writing requirements to ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/requires.txt
+writing top-level names to ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/top_level.txt
+writing manifest file '../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/SOURCES.txt'
+reading manifest file '../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/SOURCES.txt'
+writing manifest file '../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_desciption/build
+creating /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_desciption/build/lib
+creating /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_desciption/build/lib/puzzlebot_desciption
+copying puzzlebot_desciption/__init__.py -> /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_desciption/build/lib/puzzlebot_desciption
+running install
+running install_lib
+creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/lib/python3.10/site-packages/puzzlebot_desciption
+copying /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_desciption/build/lib/puzzlebot_desciption/__init__.py -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/lib/python3.10/site-packages/puzzlebot_desciption
+byte-compiling /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/lib/python3.10/site-packages/puzzlebot_desciption/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying package.xml -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/share/puzzlebot_desciption
+creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/share/puzzlebot_desciption/launch
+copying launch/puzzlebot_joints_test.launch.py -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/share/puzzlebot_desciption/launch
+creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/share/puzzlebot_desciption/resource
+copying resource/puzzlebot_desciption -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/share/puzzlebot_desciption/resource
+running install_egg_info
+Copying ../../build/puzzlebot_desciption/puzzlebot_desciption.egg-info to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_desciption/lib/python3.10/site-packages/puzzlebot_desciption-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_desciption/install.log'
