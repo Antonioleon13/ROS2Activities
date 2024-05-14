@@ -1,0 +1,20 @@
+[0.675s] Invoking command in '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_gazebo': PYTHONPATH=/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_gazebo build --build-base /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/build install --record /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/install.log --single-version-externally-managed install_data
+[0.815s] running egg_info
+[0.816s] writing ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/PKG-INFO
+[0.816s] writing dependency_links to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/dependency_links.txt
+[0.816s] writing entry points to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/entry_points.txt
+[0.816s] writing requirements to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/requires.txt
+[0.816s] writing top-level names to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/top_level.txt
+[0.817s] reading manifest file '../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/SOURCES.txt'
+[0.818s] writing manifest file '../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/SOURCES.txt'
+[0.818s] running build
+[0.818s] running build_py
+[0.818s] running install
+[0.818s] running install_lib
+[0.819s] running install_data
+[0.819s] running install_egg_info
+[0.820s] removing '/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages/puzzlebot_gazebo-0.0.0-py3.10.egg-info' (and everything under it)
+[0.820s] Copying ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages/puzzlebot_gazebo-0.0.0-py3.10.egg-info
+[0.821s] running install_scripts
+[0.836s] writing list of installed files to '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/install.log'
+[0.857s] Invoked command in '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_gazebo' returned '0': PYTHONPATH=/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_gazebo build --build-base /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/build install --record /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/install.log --single-version-externally-managed install_data

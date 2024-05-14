@@ -1,0 +1,588 @@
+[0.000000] (-) TimerEvent: {}
+[0.000145] (gazebo_ros2_control) JobQueued: {'identifier': 'gazebo_ros2_control', 'dependencies': OrderedDict()}
+[0.000185] (puzzlebot_control) JobQueued: {'identifier': 'puzzlebot_control', 'dependencies': OrderedDict()}
+[0.000217] (puzzlebot_description) JobQueued: {'identifier': 'puzzlebot_description', 'dependencies': OrderedDict()}
+[0.000235] (puzzlebot_gazebo) JobQueued: {'identifier': 'puzzlebot_gazebo', 'dependencies': OrderedDict()}
+[0.000246] (gazebo_ros2_control_demos) JobQueued: {'identifier': 'gazebo_ros2_control_demos', 'dependencies': OrderedDict([('gazebo_ros2_control', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control')])}
+[0.000259] (gazebo_ros2_control) JobStarted: {'identifier': 'gazebo_ros2_control'}
+[0.004848] (puzzlebot_control) JobStarted: {'identifier': 'puzzlebot_control'}
+[0.009577] (puzzlebot_description) JobStarted: {'identifier': 'puzzlebot_description'}
+[0.012901] (puzzlebot_gazebo) JobStarted: {'identifier': 'puzzlebot_gazebo'}
+[0.018402] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'cmake'}
+[0.019486] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '/root/ROS2Activities/workspace/challenge3_ws/src/gazebo_ros2_control/gazebo_ros2_control', '-DCMAKE_INSTALL_PREFIX=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control', 'env': OrderedDict([('HOSTNAME', '39c6352512cd'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROS2Activities/workspace/challenge3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('PWD', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:'), ('PYTHONPATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.099323] (-) TimerEvent: {}
+[0.199685] (-) TimerEvent: {}
+[0.300059] (-) TimerEvent: {}
+[0.366898] (gazebo_ros2_control) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.367125] (gazebo_ros2_control) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.367224] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.368191] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.368414] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.368762] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.368891] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.369590] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.369686] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.369786] (gazebo_ros2_control) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.369880] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.369968] (gazebo_ros2_control) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.370052] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.370136] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.391609] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.395137] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found controller_manager: 2.40.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[0.400251] (-) TimerEvent: {}
+[0.435997] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.440235] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.447244] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.457869] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.473265] (gazebo_ros2_control) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500467] (-) TimerEvent: {}
+[0.600842] (-) TimerEvent: {}
+[0.701183] (-) TimerEvent: {}
+[0.801521] (-) TimerEvent: {}
+[0.850760] (puzzlebot_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/puzzlebot_control', 'build', '--build-base', '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build', 'install', '--record', '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_control', 'env': {'HOSTNAME': '39c6352512cd', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ROS2Activities/workspace/challenge3_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:', 'PWD': '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:', 'PYTHONPATH': '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages:/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install'}, 'shell': False}
+[0.853385] (puzzlebot_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/puzzlebot_description', 'build', '--build-base', '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_description/build', 'install', '--record', '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_description', 'env': {'HOSTNAME': '39c6352512cd', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ROS2Activities/workspace/challenge3_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:', 'PWD': '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_description', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:', 'PYTHONPATH': '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_description/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_description/lib/python3.10/site-packages:/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install'}, 'shell': False}
+[0.856277] (puzzlebot_gazebo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/puzzlebot_gazebo', 'build', '--build-base', '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/build', 'install', '--record', '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_gazebo', 'env': {'HOSTNAME': '39c6352512cd', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/root/ROS2Activities/workspace/challenge3_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'GAZEBO_MODEL_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble', 'GAZEBO_RESOURCE_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:', 'PWD': '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo', 'LC_ALL': 'C.UTF-8', 'GAZEBO_PLUGIN_PATH': '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:', 'PYTHONPATH': '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages:/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/root/ROS2Activities/workspace/challenge3_ws/install'}, 'shell': False}
+[0.901613] (-) TimerEvent: {}
+[1.002028] (-) TimerEvent: {}
+[1.053646] (puzzlebot_control) StdoutLine: {'line': b'running egg_info\n'}
+[1.054340] (puzzlebot_control) StdoutLine: {'line': b'writing ../../build/puzzlebot_control/puzzlebot_control.egg-info/PKG-INFO\n'}
+[1.054536] (puzzlebot_control) StdoutLine: {'line': b'writing dependency_links to ../../build/puzzlebot_control/puzzlebot_control.egg-info/dependency_links.txt\n'}
+[1.054731] (puzzlebot_control) StdoutLine: {'line': b'writing entry points to ../../build/puzzlebot_control/puzzlebot_control.egg-info/entry_points.txt\n'}
+[1.054873] (puzzlebot_control) StdoutLine: {'line': b'writing requirements to ../../build/puzzlebot_control/puzzlebot_control.egg-info/requires.txt\n'}
+[1.054982] (puzzlebot_control) StdoutLine: {'line': b'writing top-level names to ../../build/puzzlebot_control/puzzlebot_control.egg-info/top_level.txt\n'}
+[1.056479] (puzzlebot_control) StdoutLine: {'line': b"reading manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'\n"}
+[1.056932] (puzzlebot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.057343] (puzzlebot_control) StdoutLine: {'line': b"writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'\n"}
+[1.057606] (puzzlebot_control) StdoutLine: {'line': b'running build\n'}
+[1.058245] (puzzlebot_control) StdoutLine: {'line': b'running build_py\n'}
+[1.058474] (puzzlebot_description) StdoutLine: {'line': b'writing ../../build/puzzlebot_description/puzzlebot_description.egg-info/PKG-INFO\n'}
+[1.058588] (puzzlebot_control) StdoutLine: {'line': b'running install\n'}
+[1.058692] (puzzlebot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/puzzlebot_description/puzzlebot_description.egg-info/dependency_links.txt\n'}
+[1.058802] (puzzlebot_description) StdoutLine: {'line': b'writing entry points to ../../build/puzzlebot_description/puzzlebot_description.egg-info/entry_points.txt\n'}
+[1.058903] (puzzlebot_description) StdoutLine: {'line': b'writing requirements to ../../build/puzzlebot_description/puzzlebot_description.egg-info/requires.txt\n'}
+[1.059007] (puzzlebot_description) StdoutLine: {'line': b'writing top-level names to ../../build/puzzlebot_description/puzzlebot_description.egg-info/top_level.txt\n'}
+[1.059158] (puzzlebot_control) StdoutLine: {'line': b'running install_lib\n'}
+[1.059304] (puzzlebot_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[1.059461] (puzzlebot_control) StdoutLine: {'line': b'running install_data\n'}
+[1.059560] (puzzlebot_gazebo) StdoutLine: {'line': b'writing ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/PKG-INFO\n'}
+[1.059659] (puzzlebot_gazebo) StdoutLine: {'line': b'writing dependency_links to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/dependency_links.txt\n'}
+[1.059757] (puzzlebot_gazebo) StdoutLine: {'line': b'writing entry points to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/entry_points.txt\n'}
+[1.059856] (puzzlebot_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.059978] (puzzlebot_gazebo) StdoutLine: {'line': b'writing requirements to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/requires.txt\n'}
+[1.060077] (puzzlebot_gazebo) StdoutLine: {'line': b'writing top-level names to ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/top_level.txt\n'}
+[1.060174] (puzzlebot_description) StdoutLine: {'line': b"reading manifest file '../../build/puzzlebot_description/puzzlebot_description.egg-info/SOURCES.txt'\n"}
+[1.060911] (puzzlebot_description) StdoutLine: {'line': b"writing manifest file '../../build/puzzlebot_description/puzzlebot_description.egg-info/SOURCES.txt'\n"}
+[1.061046] (puzzlebot_control) StdoutLine: {'line': b"removing '/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.061165] (puzzlebot_description) StdoutLine: {'line': b'running build\n'}
+[1.061313] (puzzlebot_description) StdoutLine: {'line': b'running build_py\n'}
+[1.061444] (puzzlebot_control) StdoutLine: {'line': b'Copying ../../build/puzzlebot_control/puzzlebot_control.egg-info to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-0.0.0-py3.10.egg-info\n'}
+[1.061546] (puzzlebot_gazebo) StdoutLine: {'line': b"reading manifest file '../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/SOURCES.txt'\n"}
+[1.061670] (puzzlebot_description) StdoutLine: {'line': b'running install\n'}
+[1.061768] (puzzlebot_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.061883] (puzzlebot_control) StdoutLine: {'line': b'running install_scripts\n'}
+[1.062352] (puzzlebot_gazebo) StdoutLine: {'line': b"writing manifest file '../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info/SOURCES.txt'\n"}
+[1.062479] (puzzlebot_gazebo) StdoutLine: {'line': b'running build\n'}
+[1.062578] (puzzlebot_gazebo) StdoutLine: {'line': b'running build_py\n'}
+[1.062747] (puzzlebot_description) StdoutLine: {'line': b'running install_data\n'}
+[1.062847] (puzzlebot_gazebo) StdoutLine: {'line': b'running install\n'}
+[1.062967] (puzzlebot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.063095] (puzzlebot_gazebo) StdoutLine: {'line': b'running install_lib\n'}
+[1.064013] (puzzlebot_gazebo) StdoutLine: {'line': b'running install_data\n'}
+[1.064271] (puzzlebot_gazebo) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.064445] (puzzlebot_description) StdoutLine: {'line': b"removing '/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_description/lib/python3.10/site-packages/puzzlebot_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.064654] (puzzlebot_description) StdoutLine: {'line': b'Copying ../../build/puzzlebot_description/puzzlebot_description.egg-info to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_description/lib/python3.10/site-packages/puzzlebot_description-0.0.0-py3.10.egg-info\n'}
+[1.065361] (puzzlebot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.066103] (puzzlebot_gazebo) StdoutLine: {'line': b"removing '/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages/puzzlebot_gazebo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.066373] (puzzlebot_gazebo) StdoutLine: {'line': b'Copying ../../build/puzzlebot_gazebo/puzzlebot_gazebo.egg-info to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/lib/python3.10/site-packages/puzzlebot_gazebo-0.0.0-py3.10.egg-info\n'}
+[1.067059] (puzzlebot_gazebo) StdoutLine: {'line': b'running install_scripts\n'}
+[1.083563] (puzzlebot_control) StdoutLine: {'line': b'Installing wheel_Vel script to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/puzzlebot_control\n'}
+[1.083869] (puzzlebot_control) StdoutLine: {'line': b"writing list of installed files to '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/install.log'\n"}
+[1.087445] (puzzlebot_description) StdoutLine: {'line': b"writing list of installed files to '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_description/install.log'\n"}
+[1.088629] (puzzlebot_gazebo) StdoutLine: {'line': b"writing list of installed files to '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_gazebo/install.log'\n"}
+[1.102210] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.102433] (-) TimerEvent: {}
+[1.105201] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.107036] (puzzlebot_control) CommandEnded: {'returncode': 0}
+[1.116951] (puzzlebot_control) JobEnded: {'identifier': 'puzzlebot_control', 'rc': 0}
+[1.118366] (puzzlebot_description) CommandEnded: {'returncode': 0}
+[1.123278] (puzzlebot_description) JobEnded: {'identifier': 'puzzlebot_description', 'rc': 0}
+[1.123815] (puzzlebot_gazebo) CommandEnded: {'returncode': 0}
+[1.128080] (puzzlebot_gazebo) JobEnded: {'identifier': 'puzzlebot_gazebo', 'rc': 0}
+[1.144075] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.174839] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.176766] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.186192] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.192342] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.197335] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.202616] (-) TimerEvent: {}
+[1.203031] (gazebo_ros2_control) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.212181] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.256153] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.256301] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301274] (gazebo_ros2_control) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.302106] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.302727] (-) TimerEvent: {}
+[1.403002] (-) TimerEvent: {}
+[1.503283] (-) TimerEvent: {}
+[1.603507] (-) TimerEvent: {}
+[1.703825] (-) TimerEvent: {}
+[1.716866] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found control_toolbox: 3.2.0 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[1.752247] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.779918] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_dev: 3.7.0 (/opt/ros/humble/share/gazebo_dev/cmake)\n'}
+[1.786905] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.787602] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.794670] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.803930] (-) TimerEvent: {}
+[1.861779] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.899288] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[1.904085] (-) TimerEvent: {}
+[1.923901] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.950771] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.971149] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.976640] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.985547] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.989167] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.989444] (gazebo_ros2_control) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.992369] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.998910] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.004149] (-) TimerEvent: {}
+[2.015858] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.018957] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.025599] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.028122] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.028199] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.031163] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.031242] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.033408] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.033506] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.035646] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.035733] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.038494] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.038642] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.041063] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.087137] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.089976] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.090277] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.104323] (-) TimerEvent: {}
+[2.104921] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.114718] (gazebo_ros2_control) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.117700] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.126468] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.146103] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.150300] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.157042] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.175110] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.178120] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.178392] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.193183] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.196621] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.203611] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.204490] (-) TimerEvent: {}
+[2.222032] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.225845] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.226152] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.226759] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.227020] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.228140] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.236056] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.236975] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.239263] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.239791] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.239890] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.242795] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.243030] (gazebo_ros2_control) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.288595] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.296324] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.303476] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.304629] (-) TimerEvent: {}
+[2.321999] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.326618] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.334128] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.359874] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.360380] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.360745] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.361220] (gazebo_ros2_control) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.365961] (gazebo_ros2_control) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.366038] (gazebo_ros2_control) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.373295] (gazebo_ros2_control) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.393217] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[2.401264] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)\n'}
+[2.404811] (-) TimerEvent: {}
+[2.505092] (-) TimerEvent: {}
+[2.605430] (-) TimerEvent: {}
+[2.705762] (-) TimerEvent: {}
+[2.806077] (-) TimerEvent: {}
+[2.813122] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.816257] (gazebo_ros2_control) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.885078] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.886127] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.886541] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /root/ROS2Activities/workspace/challenge3_ws/src/gazebo_ros2_control/gazebo_ros2_control/include\n'}
+[2.886669] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.887575] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.887664] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.888382] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.889370] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.889472] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.890022] (gazebo_ros2_control) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.891122] (gazebo_ros2_control) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.906251] (-) TimerEvent: {}
+[2.955316] (gazebo_ros2_control) StdoutLine: {'line': b'-- Generating done\n'}
+[2.957164] (gazebo_ros2_control) StdoutLine: {'line': b'-- Build files have been written to: /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control\n'}
+[2.968152] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[2.968399] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'build'}
+[2.968423] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control', '--', '-j16', '-l16'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control', 'env': OrderedDict([('HOSTNAME', '39c6352512cd'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROS2Activities/workspace/challenge3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('PWD', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:'), ('PYTHONPATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble')]), 'shell': False}
+[2.998710] (gazebo_ros2_control) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_ros2_control.dir/src/gazebo_ros2_control_plugin.cpp.o\x1b[0m\n'}
+[2.998902] (gazebo_ros2_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/gazebo_hardware_plugins.dir/src/gazebo_system.cpp.o\x1b[0m\n'}
+[3.006409] (-) TimerEvent: {}
+[3.106770] (-) TimerEvent: {}
+[3.207113] (-) TimerEvent: {}
+[3.307440] (-) TimerEvent: {}
+[3.407762] (-) TimerEvent: {}
+[3.508131] (-) TimerEvent: {}
+[3.608506] (-) TimerEvent: {}
+[3.708867] (-) TimerEvent: {}
+[3.809179] (-) TimerEvent: {}
+[3.909537] (-) TimerEvent: {}
+[4.009821] (-) TimerEvent: {}
+[4.110090] (-) TimerEvent: {}
+[4.210431] (-) TimerEvent: {}
+[4.310774] (-) TimerEvent: {}
+[4.411105] (-) TimerEvent: {}
+[4.511446] (-) TimerEvent: {}
+[4.611801] (-) TimerEvent: {}
+[4.712054] (-) TimerEvent: {}
+[4.812458] (-) TimerEvent: {}
+[4.912800] (-) TimerEvent: {}
+[5.013124] (-) TimerEvent: {}
+[5.113471] (-) TimerEvent: {}
+[5.213810] (-) TimerEvent: {}
+[5.314172] (-) TimerEvent: {}
+[5.414505] (-) TimerEvent: {}
+[5.514853] (-) TimerEvent: {}
+[5.615191] (-) TimerEvent: {}
+[5.715487] (-) TimerEvent: {}
+[5.815941] (-) TimerEvent: {}
+[5.916345] (-) TimerEvent: {}
+[6.016652] (-) TimerEvent: {}
+[6.117074] (-) TimerEvent: {}
+[6.217367] (-) TimerEvent: {}
+[6.317676] (-) TimerEvent: {}
+[6.418067] (-) TimerEvent: {}
+[6.518474] (-) TimerEvent: {}
+[6.618874] (-) TimerEvent: {}
+[6.719179] (-) TimerEvent: {}
+[6.819483] (-) TimerEvent: {}
+[6.919871] (-) TimerEvent: {}
+[7.020178] (-) TimerEvent: {}
+[7.120573] (-) TimerEvent: {}
+[7.221008] (-) TimerEvent: {}
+[7.321357] (-) TimerEvent: {}
+[7.421749] (-) TimerEvent: {}
+[7.522148] (-) TimerEvent: {}
+[7.622536] (-) TimerEvent: {}
+[7.722809] (-) TimerEvent: {}
+[7.823207] (-) TimerEvent: {}
+[7.923601] (-) TimerEvent: {}
+[8.023935] (-) TimerEvent: {}
+[8.124345] (-) TimerEvent: {}
+[8.224742] (-) TimerEvent: {}
+[8.325153] (-) TimerEvent: {}
+[8.425594] (-) TimerEvent: {}
+[8.525999] (-) TimerEvent: {}
+[8.626401] (-) TimerEvent: {}
+[8.726795] (-) TimerEvent: {}
+[8.827190] (-) TimerEvent: {}
+[8.927583] (-) TimerEvent: {}
+[9.027975] (-) TimerEvent: {}
+[9.128370] (-) TimerEvent: {}
+[9.228766] (-) TimerEvent: {}
+[9.329181] (-) TimerEvent: {}
+[9.429574] (-) TimerEvent: {}
+[9.529910] (-) TimerEvent: {}
+[9.630298] (-) TimerEvent: {}
+[9.730668] (-) TimerEvent: {}
+[9.831060] (-) TimerEvent: {}
+[9.931450] (-) TimerEvent: {}
+[10.031848] (-) TimerEvent: {}
+[10.132247] (-) TimerEvent: {}
+[10.232640] (-) TimerEvent: {}
+[10.333023] (-) TimerEvent: {}
+[10.433290] (-) TimerEvent: {}
+[10.533679] (-) TimerEvent: {}
+[10.634086] (-) TimerEvent: {}
+[10.734455] (-) TimerEvent: {}
+[10.834839] (-) TimerEvent: {}
+[10.935236] (-) TimerEvent: {}
+[11.035629] (-) TimerEvent: {}
+[11.136016] (-) TimerEvent: {}
+[11.236397] (-) TimerEvent: {}
+[11.336795] (-) TimerEvent: {}
+[11.437208] (-) TimerEvent: {}
+[11.497342] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_hardware_plugins.so\x1b[0m\n'}
+[11.537329] (-) TimerEvent: {}
+[11.637737] (-) TimerEvent: {}
+[11.738132] (-) TimerEvent: {}
+[11.838523] (-) TimerEvent: {}
+[11.911554] (gazebo_ros2_control) StdoutLine: {'line': b'[ 75%] Built target gazebo_hardware_plugins\n'}
+[11.938741] (-) TimerEvent: {}
+[12.039113] (-) TimerEvent: {}
+[12.139493] (-) TimerEvent: {}
+[12.239861] (-) TimerEvent: {}
+[12.340248] (-) TimerEvent: {}
+[12.440627] (-) TimerEvent: {}
+[12.540885] (-) TimerEvent: {}
+[12.551365] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libgazebo_ros2_control.so\x1b[0m\n'}
+[12.641168] (-) TimerEvent: {}
+[12.741503] (-) TimerEvent: {}
+[12.841862] (-) TimerEvent: {}
+[12.942242] (-) TimerEvent: {}
+[12.986989] (gazebo_ros2_control) StdoutLine: {'line': b'[100%] Built target gazebo_ros2_control\n'}
+[12.993215] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[13.010076] (gazebo_ros2_control) JobProgress: {'identifier': 'gazebo_ros2_control', 'progress': 'install'}
+[13.015187] (gazebo_ros2_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control', 'env': OrderedDict([('HOSTNAME', '39c6352512cd'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROS2Activities/workspace/challenge3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('PWD', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:'), ('PYTHONPATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble')]), 'shell': False}
+[13.019077] (gazebo_ros2_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.019217] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so\n'}
+[13.020880] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib/libgazebo_ros2_control.so" to ""\n'}
+[13.021059] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so\n'}
+[13.022243] (gazebo_ros2_control) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib/libgazebo_hardware_plugins.so" to ""\n'}
+[13.022562] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.sh\n'}
+[13.022661] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/library_path.dsv\n'}
+[13.022938] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control\n'}
+[13.023304] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_ros2_control_plugin.hpp\n'}
+[13.023418] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system_interface.hpp\n'}
+[13.023537] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/include/gazebo_ros2_control/gazebo_system.hpp\n'}
+[13.023639] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/gazebo_hardware_plugins.xml\n'}
+[13.023867] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control\n'}
+[13.024010] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control\n'}
+[13.024117] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.sh\n'}
+[13.024209] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/ament_prefix_path.dsv\n'}
+[13.024295] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.sh\n'}
+[13.024374] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/environment/path.dsv\n'}
+[13.024445] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.bash\n'}
+[13.024516] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.sh\n'}
+[13.024587] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.zsh\n'}
+[13.024657] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/local_setup.dsv\n'}
+[13.024774] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.dsv\n'}
+[13.024857] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/packages/gazebo_ros2_control\n'}
+[13.025111] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/ament_index/resource_index/gazebo_ros2_control__pluginlib__plugin/gazebo_ros2_control\n'}
+[13.025188] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.026702] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.026752] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.026792] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig.cmake\n'}
+[13.026833] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/cmake/gazebo_ros2_controlConfig-version.cmake\n'}
+[13.026876] (gazebo_ros2_control) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/share/gazebo_ros2_control/package.xml\n'}
+[13.026917] (gazebo_ros2_control) CommandEnded: {'returncode': 0}
+[13.042495] (-) TimerEvent: {}
+[13.053031] (gazebo_ros2_control) JobEnded: {'identifier': 'gazebo_ros2_control', 'rc': 0}
+[13.053909] (gazebo_ros2_control_demos) JobStarted: {'identifier': 'gazebo_ros2_control_demos'}
+[13.059935] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'cmake'}
+[13.060257] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '/root/ROS2Activities/workspace/challenge3_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos', '-DCMAKE_INSTALL_PREFIX=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('HOSTNAME', '39c6352512cd'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROS2Activities/workspace/challenge3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('PWD', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:'), ('PYTHONPATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble')]), 'shell': False}
+[13.096843] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.130909] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[13.135384] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[13.142672] (-) TimerEvent: {}
+[13.180295] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[13.185149] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[13.185347] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[13.185599] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[13.187795] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[13.235075] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[13.239723] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[13.239809] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[13.240127] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[13.242373] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[13.242731] (-) TimerEvent: {}
+[13.339897] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[13.342912] (-) TimerEvent: {}
+[13.404376] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[13.431816] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[13.435677] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[13.441780] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[13.443081] (-) TimerEvent: {}
+[13.451082] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.464426] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[13.543256] (-) TimerEvent: {}
+[13.643539] (-) TimerEvent: {}
+[13.743850] (-) TimerEvent: {}
+[13.817827] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[13.844018] (-) TimerEvent: {}
+[13.859865] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[13.862132] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[13.926486] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[13.944144] (-) TimerEvent: {}
+[13.945860] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[13.980479] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.987968] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[14.034030] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[14.034179] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[14.044266] (-) TimerEvent: {}
+[14.078184] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[14.079084] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[14.144458] (-) TimerEvent: {}
+[14.165747] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[14.189295] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[14.190841] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.244646] (-) TimerEvent: {}
+[14.250387] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[14.252021] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.252288] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.252343] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.253940] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[14.253989] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[14.254314] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.254953] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.255296] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.256878] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.256931] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.257313] (gazebo_ros2_control_demos) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.258111] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.275133] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Generating done\n'}
+[14.276497] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Build files have been written to: /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos\n'}
+[14.284713] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[14.285919] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'build'}
+[14.285951] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos', '--', '-j16', '-l16'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('HOSTNAME', '39c6352512cd'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROS2Activities/workspace/challenge3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('PWD', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:'), ('PYTHONPATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble')]), 'shell': False}
+[14.317908] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o\x1b[0m\n'}
+[14.318347] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o\x1b[0m\n'}
+[14.318529] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o\x1b[0m\n'}
+[14.318886] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o\x1b[0m\n'}
+[14.319055] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o\x1b[0m\n'}
+[14.319200] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o\x1b[0m\n'}
+[14.325446] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o\x1b[0m\n'}
+[14.344806] (-) TimerEvent: {}
+[14.445070] (-) TimerEvent: {}
+[14.545397] (-) TimerEvent: {}
+[14.645775] (-) TimerEvent: {}
+[14.746190] (-) TimerEvent: {}
+[14.846623] (-) TimerEvent: {}
+[14.947080] (-) TimerEvent: {}
+[15.047505] (-) TimerEvent: {}
+[15.148001] (-) TimerEvent: {}
+[15.248487] (-) TimerEvent: {}
+[15.348988] (-) TimerEvent: {}
+[15.449474] (-) TimerEvent: {}
+[15.549976] (-) TimerEvent: {}
+[15.650546] (-) TimerEvent: {}
+[15.751149] (-) TimerEvent: {}
+[15.851771] (-) TimerEvent: {}
+[15.952430] (-) TimerEvent: {}
+[16.053444] (-) TimerEvent: {}
+[16.154556] (-) TimerEvent: {}
+[16.255503] (-) TimerEvent: {}
+[16.355882] (-) TimerEvent: {}
+[16.456282] (-) TimerEvent: {}
+[16.556663] (-) TimerEvent: {}
+[16.657047] (-) TimerEvent: {}
+[16.757425] (-) TimerEvent: {}
+[16.857794] (-) TimerEvent: {}
+[16.958171] (-) TimerEvent: {}
+[17.058550] (-) TimerEvent: {}
+[17.158932] (-) TimerEvent: {}
+[17.259313] (-) TimerEvent: {}
+[17.359694] (-) TimerEvent: {}
+[17.460067] (-) TimerEvent: {}
+[17.560436] (-) TimerEvent: {}
+[17.660789] (-) TimerEvent: {}
+[17.761154] (-) TimerEvent: {}
+[17.861510] (-) TimerEvent: {}
+[17.961864] (-) TimerEvent: {}
+[18.062221] (-) TimerEvent: {}
+[18.162577] (-) TimerEvent: {}
+[18.262938] (-) TimerEvent: {}
+[18.363291] (-) TimerEvent: {}
+[18.463653] (-) TimerEvent: {}
+[18.563997] (-) TimerEvent: {}
+[18.664316] (-) TimerEvent: {}
+[18.685069] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable example_tricycle_drive\x1b[0m\n'}
+[18.712162] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable example_gripper\x1b[0m\n'}
+[18.718306] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable example_velocity\x1b[0m\n'}
+[18.764497] (-) TimerEvent: {}
+[18.827241] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX executable example_effort\x1b[0m\n'}
+[18.864667] (-) TimerEvent: {}
+[18.878248] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 78%] Built target example_tricycle_drive\n'}
+[18.906906] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 78%] Built target example_gripper\n'}
+[18.908997] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 78%] Built target example_velocity\n'}
+[18.910284] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable example_position_pid\x1b[0m\n'}
+[18.964892] (-) TimerEvent: {}
+[19.059989] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 85%] Built target example_effort\n'}
+[19.065118] (-) TimerEvent: {}
+[19.088966] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 85%] Built target example_position_pid\n'}
+[19.165334] (-) TimerEvent: {}
+[19.265722] (-) TimerEvent: {}
+[19.366121] (-) TimerEvent: {}
+[19.466504] (-) TimerEvent: {}
+[19.477155] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable example_position\x1b[0m\n'}
+[19.566761] (-) TimerEvent: {}
+[19.615426] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[ 92%] Built target example_position\n'}
+[19.666952] (-) TimerEvent: {}
+[19.767313] (-) TimerEvent: {}
+[19.796542] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example_diff_drive\x1b[0m\n'}
+[19.867545] (-) TimerEvent: {}
+[19.904529] (gazebo_ros2_control_demos) StdoutLine: {'line': b'[100%] Built target example_diff_drive\n'}
+[19.911321] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[19.934189] (gazebo_ros2_control_demos) JobProgress: {'identifier': 'gazebo_ros2_control_demos', 'progress': 'install'}
+[19.935025] (gazebo_ros2_control_demos) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos'], 'cwd': '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos', 'env': OrderedDict([('HOSTNAME', '39c6352512cd'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:/root/ROS2Activities/workspace/challenge3_ws/install/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/ROS2Activities/workspace/challenge3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar/model:'), ('PWD', '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos'), ('LC_ALL', 'C.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib:'), ('PYTHONPATH', '/root/ROS2Activities/workspace/challenge3_ws/install/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble')]), 'shell': False}
+[19.939721] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.939862] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch\n'}
+[19.939966] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py\n'}
+[19.940068] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py\n'}
+[19.940156] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py\n'}
+[19.940253] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py\n'}
+[19.940338] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py\n'}
+[19.940431] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py\n'}
+[19.940521] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py\n'}
+[19.940609] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py\n'}
+[19.940707] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py\n'}
+[19.940801] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py\n'}
+[19.940900] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config\n'}
+[19.940999] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml\n'}
+[19.941112] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml\n'}
+[19.941211] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml\n'}
+[19.941304] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml\n'}
+[19.941389] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml\n'}
+[19.941482] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz\n'}
+[19.941565] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml\n'}
+[19.941658] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml\n'}
+[19.941730] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf\n'}
+[19.941812] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf\n'}
+[19.941883] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf\n'}
+[19.941954] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf\n'}
+[19.942031] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf\n'}
+[19.942103] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf\n'}
+[19.942172] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf\n'}
+[19.942241] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf\n'}
+[19.942312] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf\n'}
+[19.942381] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf\n'}
+[19.942472] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf\n'}
+[19.942543] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position\n'}
+[19.942614] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""\n'}
+[19.942684] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid\n'}
+[19.943066] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid" to ""\n'}
+[19.943148] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity\n'}
+[19.943721] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""\n'}
+[19.943795] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort\n'}
+[19.944288] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""\n'}
+[19.944373] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive\n'}
+[19.944940] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""\n'}
+[19.945033] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive\n'}
+[19.945729] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""\n'}
+[19.945807] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper\n'}
+[19.946368] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""\n'}
+[19.946467] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos\n'}
+[19.946559] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos\n'}
+[19.946646] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh\n'}
+[19.946737] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv\n'}
+[19.946825] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh\n'}
+[19.946930] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv\n'}
+[19.947018] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash\n'}
+[19.947106] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh\n'}
+[19.947194] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh\n'}
+[19.947281] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv\n'}
+[19.947378] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv\n'}
+[19.947467] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos\n'}
+[19.947543] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake\n'}
+[19.947617] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake\n'}
+[19.947692] (gazebo_ros2_control_demos) StdoutLine: {'line': b'-- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml\n'}
+[19.948842] (gazebo_ros2_control_demos) CommandEnded: {'returncode': 0}
+[19.967740] (-) TimerEvent: {}
+[19.980274] (gazebo_ros2_control_demos) JobEnded: {'identifier': 'gazebo_ros2_control_demos', 'rc': 0}
+[19.980877] (-) EventReactorShutdown: {}

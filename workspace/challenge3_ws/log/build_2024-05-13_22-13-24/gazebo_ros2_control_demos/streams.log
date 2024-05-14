@@ -1,0 +1,137 @@
+[0.007s] Invoking command in '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ROS2Activities/workspace/challenge3_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos
+[0.043s] -- The C compiler identification is GNU 11.4.0
+[0.077s] -- The CXX compiler identification is GNU 11.4.0
+[0.082s] -- Detecting C compiler ABI info
+[0.126s] -- Detecting C compiler ABI info - done
+[0.131s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.131s] -- Detecting C compile features
+[0.132s] -- Detecting C compile features - done
+[0.134s] -- Detecting CXX compiler ABI info
+[0.181s] -- Detecting CXX compiler ABI info - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.186s] -- Detecting CXX compile features
+[0.186s] -- Detecting CXX compile features - done
+[0.189s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.286s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.351s] -- Found control_msgs: 4.4.0 (/opt/ros/humble/share/control_msgs/cmake)
+[0.378s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.382s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.388s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.764s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.806s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.808s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.873s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.892s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.927s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Looking for pthread.h
+[0.980s] -- Looking for pthread.h - found
+[0.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.024s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.025s] -- Found Threads: TRUE  
+[1.112s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.135s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.137s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.197s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.198s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.198s] -- Configured cppcheck include dirs: 
+[1.198s] -- Configured cppcheck exclude dirs and/or files: 
+[1.200s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.200s] -- Configured cpplint exclude dirs and/or files: 
+[1.200s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.201s] -- Added test 'lint_cmake' to check CMake code style
+[1.201s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.203s] -- Added test 'uncrustify' to check C / C++ code style
+[1.203s] -- Configured uncrustify additional arguments: 
+[1.203s] -- Added test 'xmllint' to check XML markup files
+[1.204s] -- Configuring done
+[1.221s] -- Generating done
+[1.223s] -- Build files have been written to: /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos
+[1.231s] Invoked command in '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /root/ROS2Activities/workspace/challenge3_ws/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos
+[1.232s] Invoking command in '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos -- -j16 -l16
+[1.264s] [  7%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[1.265s] [ 14%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[1.265s] [ 21%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[1.265s] [ 28%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[1.265s] [ 35%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[1.265s] [ 42%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[1.272s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[5.631s] [ 57%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[5.658s] [ 64%] [32m[1mLinking CXX executable example_gripper[0m
+[5.665s] [ 71%] [32m[1mLinking CXX executable example_velocity[0m
+[5.774s] [ 78%] [32m[1mLinking CXX executable example_effort[0m
+[5.825s] [ 78%] Built target example_tricycle_drive
+[5.853s] [ 78%] Built target example_gripper
+[5.855s] [ 78%] Built target example_velocity
+[5.857s] [ 85%] [32m[1mLinking CXX executable example_position_pid[0m
+[6.006s] [ 85%] Built target example_effort
+[6.035s] [ 85%] Built target example_position_pid
+[6.423s] [ 92%] [32m[1mLinking CXX executable example_position[0m
+[6.562s] [ 92%] Built target example_position
+[6.743s] [100%] [32m[1mLinking CXX executable example_diff_drive[0m
+[6.851s] [100%] Built target example_diff_drive
+[6.858s] Invoked command in '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos -- -j16 -l16
+[6.881s] Invoking command in '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos': AMENT_PREFIX_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos
+[6.886s] -- Install configuration: ""
+[6.886s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[6.886s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[6.886s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[6.886s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[6.886s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[6.886s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[6.887s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[6.888s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[6.889s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[6.889s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[6.889s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[6.889s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[6.889s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[6.889s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid" to ""
+[6.889s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[6.890s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[6.890s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[6.890s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[6.890s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[6.891s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[6.891s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[6.892s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[6.892s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[6.893s] -- Set runtime path of "/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[6.893s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[6.894s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[6.894s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[6.894s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[6.894s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[6.894s] -- Installing: /root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[6.895s] Invoked command in '/root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}/gazebo_ros2_control:/root/ROS2Activities/workspace/challenge3_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/root/ROS2Activities/workspace/challenge3_ws/install/gazebo_ros2_control/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /root/ROS2Activities/workspace/challenge3_ws/build/gazebo_ros2_control_demos

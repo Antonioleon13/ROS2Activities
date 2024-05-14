@@ -1,0 +1,33 @@
+[0.348s] Invoking command in '/root/ROS2Activities/workspace/lidar_ws/src/puzzlebot_lidar': PYTHONPATH=/root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/prefix_override:/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_lidar build --build-base /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build install --record /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/install.log --single-version-externally-managed install_data
+[0.473s] running egg_info
+[0.474s] creating ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info
+[0.474s] writing ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/PKG-INFO
+[0.474s] writing dependency_links to ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/dependency_links.txt
+[0.474s] writing entry points to ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/entry_points.txt
+[0.474s] writing requirements to ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/requires.txt
+[0.474s] writing top-level names to ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/top_level.txt
+[0.474s] writing manifest file '../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/SOURCES.txt'
+[0.475s] reading manifest file '../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/SOURCES.txt'
+[0.476s] writing manifest file '../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info/SOURCES.txt'
+[0.476s] running build
+[0.476s] running build_py
+[0.476s] creating /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build
+[0.476s] creating /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build/lib
+[0.476s] creating /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build/lib/puzzlebot_lidar
+[0.476s] copying puzzlebot_lidar/__init__.py -> /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build/lib/puzzlebot_lidar
+[0.476s] running install
+[0.476s] running install_lib
+[0.477s] creating /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib/python3.10/site-packages/puzzlebot_lidar
+[0.477s] copying /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build/lib/puzzlebot_lidar/__init__.py -> /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib/python3.10/site-packages/puzzlebot_lidar
+[0.477s] byte-compiling /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib/python3.10/site-packages/puzzlebot_lidar/__init__.py to __init__.cpython-310.pyc
+[0.477s] running install_data
+[0.477s] creating /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/ament_index
+[0.477s] creating /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/ament_index/resource_index
+[0.477s] creating /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/ament_index/resource_index/packages
+[0.477s] copying resource/puzzlebot_lidar -> /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/ament_index/resource_index/packages
+[0.478s] copying package.xml -> /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/share/puzzlebot_lidar
+[0.478s] running install_egg_info
+[0.479s] Copying ../../build/puzzlebot_lidar/puzzlebot_lidar.egg-info to /root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib/python3.10/site-packages/puzzlebot_lidar-0.0.0-py3.10.egg-info
+[0.479s] running install_scripts
+[0.494s] writing list of installed files to '/root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/install.log'
+[0.508s] Invoked command in '/root/ROS2Activities/workspace/lidar_ws/src/puzzlebot_lidar' returned '0': PYTHONPATH=/root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/prefix_override:/root/ROS2Activities/workspace/lidar_ws/install/puzzlebot_lidar/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_lidar build --build-base /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/build install --record /root/ROS2Activities/workspace/lidar_ws/build/puzzlebot_lidar/install.log --single-version-externally-managed install_data

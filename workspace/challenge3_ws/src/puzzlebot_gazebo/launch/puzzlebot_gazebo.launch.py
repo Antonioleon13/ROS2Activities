@@ -1,11 +1,17 @@
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, SetEnvironmentVariable
 from launch.substitutions import LaunchConfiguration, Command, FindExecutable, PathJoinSubstitution
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.substitutions import FindPackageShare
 
+
 def generate_launch_description():
     return LaunchDescription([
+
+        SetEnvironmentVariable(
+            name='GAZEBO_MODEL_PATH',
+            value='/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_gazebo/share/puzzlebot_gazebo/model:${GAZEBO_MODEL_PATH}'
+        ),
         # Puzzlebot parameters
         DeclareLaunchArgument('robot_name', default_value='puzzlebot_1'),
         DeclareLaunchArgument('robot_description_file', default_value='puzzlebot_jetson_lidar_ed_v1.xacro'),
@@ -35,5 +41,22 @@ def generate_launch_description():
                 'debug': LaunchConfiguration('debug'),
                 'extra_gazebo_args': '--lockstep'
             }.items(),
-        )
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(PathJoinSubstitution(
+                [FindPackageShare('gazebo_ros'), 'launch', 'gzclient.launch.py'])),
+        ),
+
+        IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(PathJoinSubstitution(
+                [FindPackageShare('puzzlebot_gazebo'), 'launch', 'puzzlebot_spawner.launch.py'])),
+            launch_arguments={
+                'robot': LaunchConfiguration('robot_name'),
+                'robot_description_file': LaunchConfiguration('robot_description_file'),
+                'x': LaunchConfiguration('pos_x'),
+                'y': LaunchConfiguration('pos_y'),
+                'yaw': LaunchConfiguration('pos_theta')
+            }.items(),
+        ),
     ])

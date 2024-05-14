@@ -1,0 +1,41 @@
+[0.837s] Invoking command in '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_control': PYTHONPATH=/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_control build --build-base /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build install --record /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/install.log --single-version-externally-managed install_data
+[1.024s] running egg_info
+[1.025s] creating ../../build/puzzlebot_control/puzzlebot_control.egg-info
+[1.025s] writing ../../build/puzzlebot_control/puzzlebot_control.egg-info/PKG-INFO
+[1.025s] writing dependency_links to ../../build/puzzlebot_control/puzzlebot_control.egg-info/dependency_links.txt
+[1.026s] writing entry points to ../../build/puzzlebot_control/puzzlebot_control.egg-info/entry_points.txt
+[1.026s] writing requirements to ../../build/puzzlebot_control/puzzlebot_control.egg-info/requires.txt
+[1.026s] writing top-level names to ../../build/puzzlebot_control/puzzlebot_control.egg-info/top_level.txt
+[1.026s] writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[1.029s] reading manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[1.030s] writing manifest file '../../build/puzzlebot_control/puzzlebot_control.egg-info/SOURCES.txt'
+[1.030s] running build
+[1.030s] running build_py
+[1.030s] creating /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build
+[1.030s] creating /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build/lib
+[1.030s] creating /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[1.030s] copying puzzlebot_control/__init__.py -> /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[1.030s] copying puzzlebot_control/wheel_vel.py -> /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build/lib/puzzlebot_control
+[1.030s] running install
+[1.031s] running install_lib
+[1.031s] creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[1.031s] copying /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build/lib/puzzlebot_control/__init__.py -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[1.031s] copying /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build/lib/puzzlebot_control/wheel_vel.py -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control
+[1.031s] byte-compiling /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/__init__.py to __init__.cpython-310.pyc
+[1.031s] byte-compiling /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control/wheel_vel.py to wheel_vel.cpython-310.pyc
+[1.032s] running install_data
+[1.032s] copying package.xml -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control
+[1.032s] creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[1.032s] copying launch/puzzlebot_control.launch.py -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/launch
+[1.032s] creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/resource
+[1.032s] copying resource/puzzlebot_control -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/resource
+[1.032s] creating /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/config
+[1.032s] copying config/puzzlebot_joint_states.yaml -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/config
+[1.032s] copying config/puzzlebot_gazebo_control.yaml -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/config
+[1.032s] copying config/puzzlebot_diff_control.yaml -> /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/share/puzzlebot_control/config
+[1.033s] running install_egg_info
+[1.034s] Copying ../../build/puzzlebot_control/puzzlebot_control.egg-info to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages/puzzlebot_control-0.0.0-py3.10.egg-info
+[1.035s] running install_scripts
+[1.055s] Installing wheel_Vel script to /root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/puzzlebot_control
+[1.055s] writing list of installed files to '/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/install.log'
+[1.084s] Invoked command in '/root/ROS2Activities/workspace/challenge3_ws/src/puzzlebot_control' returned '0': PYTHONPATH=/root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/prefix_override:/root/ROS2Activities/workspace/challenge3_ws/install/puzzlebot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/puzzlebot_control build --build-base /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/build install --record /root/ROS2Activities/workspace/challenge3_ws/build/puzzlebot_control/install.log --single-version-externally-managed install_data
